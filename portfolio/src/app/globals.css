@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navBar {
+  height: 10vh;
+  padding: 0.5rem 10rem;
+  background-color: rgb(36, 50, 52);
+  border-bottom: 3px solid rgb(74, 94, 97);
+}
+
+.content {
+  height: 90vh;
+  width: 100%;
+  background-color: rgb(36, 50, 52);
+  display: flex;
+  align-content: center;
+  justify-items: center;
+}
+
+.mainSlide {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-carousel-container {
+  /* background-color: pink; */
+  height: 100%;
+  width: 100%;
+}
+
+/* HOME */
+.homeContainer {
+  /* background-color: rgb(220, 206, 179); */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeContent {
+  /* background-color: rebeccapurple; */
+  height: 80%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CONTAINERS */
+.aboutContainer, .skillsContainer {
+  /* background-color: rgb(220, 206, 179); */
+  height: 85%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutCarouselContainer, .projectsContainer, .contactContainer {
+  /* background-color: rgb(220, 206, 179); */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.titleContent {
+  /* background-color: aqua; */
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ABOUT */
+.aboutContent {
+  /* background-color: rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: white;
+}
+
+.aboutPic {
+  width: 30%;
+  border-radius: 3%;
+  filter: drop-shadow(rgb(17, 29, 31) 0rem 0rem 5px);
+}
+
+/* ABOUT CAROUSEL */
+.mySwiper {
+  /* background-color: rgba(75, 159, 172, 0.203); */
+  height: 70%;
+  width: 90%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.swiper-slide {
+  /* background-color: rgb(74, 94, 97); */
+  text-align: center;
+  font-size: 18px;
+  align-content: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardWrapper {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+}
+
+.aboutCard {
+  background-color: blueviolet;
+  height: 510px;
+  width: 500px;
+}
+
+.swiper-navigation-icon {
+  /* color: rgb(77,106,109); */
+  color: white;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+/* SKILLS */
+.titleContainer {
+  /* background-color: aqua; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5%;
+}
+
+.skillsContent {
+  /* background-color: brown; */
+  width: 100%;
+  margin-left: 5%;
+}
+
+/* CONTACT */
+.contactContainer {
+  /* background-color: bisque; */
+  align-items: center;
+}
+
+.formContent {
+  /* background-color: aquamarine; */
+  padding-left: 90;
+  padding-right: 90;
+  align-content: center;
+  height: 50%;
+  width: 25%;
+}
+
+/* FOOTER */
+.footerContainer {
+  background-color: rgb(36, 50, 52);
+  height: 13%;
+  width: 100%;
+}
+
+.footerContent {
+  height: 100%;
+}
